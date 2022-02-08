@@ -13,14 +13,14 @@ body {
 
 @font-face {
   font-family: 'Outfit';
-  src: url(/fonts/Outfit-Bold.ttf);
+  src: url(fonts/Outfit-Bold.ttf);
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Outfit';
-  src: url(/fonts/Outfit-Regular.ttf);
+  src: url(fonts/Outfit-Regular.ttf);
   font-style: normal;
   font-weight: 400;
 }
@@ -28,7 +28,10 @@ body {
 /* Mobile */
 
 .attribution {
-  font-size: 11px; text-align: center;
+  font-family: 'Outfit';
+  padding: 0 0 2rem;
+  font-size: 1rem;
+  text-align: center;
 }
 
 .attribution a {
@@ -36,14 +39,14 @@ body {
 }
 
 .container {
-  width: min(85%, 650px);
+  width: min(85%, 550px);
   margin: 2rem auto;
   border-radius: 16px;
-  outline: 2px solid black;
   background-color: white;
 }
 
 .heading {
+  text-align: center;
   font-family: 'Outfit';
   font-weight: 700;
   color: hsl(218, 44%, 22%);
@@ -53,17 +56,24 @@ body {
   display: block;
   width: 98%;
   border-radius: 8px;
-  outline: 2px solid black;
   margin: 0 auto;
 }
 
 .qr-code-container {
-  padding: 1rem;
+  padding: 1rem 1rem 0;
   width: 100%;
 }
 
+.text-container {
+  width: 82%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
 .text-content {
+  text-align: center;
   font-family: 'Outfit';
   font-weight: 400;
+  font-size: 1.2rem;
   color: hsl(220, 15%, 55%)
 }
