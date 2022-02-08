@@ -11,6 +11,20 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
+@font-face {
+  font-family: 'Outfit';
+  src: url(/fonts/Outfit-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url(/fonts/Outfit-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
 /* Mobile */
 
 .attribution {
@@ -30,6 +44,8 @@ body {
 }
 
 .heading {
+  font-family: 'Outfit';
+  font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
 
@@ -47,5 +63,7 @@ body {
 }
 
 .text-content {
+  font-family: 'Outfit';
+  font-weight: 400;
   color: hsl(220, 15%, 55%)
 }
